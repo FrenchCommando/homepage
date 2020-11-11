@@ -154,6 +154,7 @@
     .badge-pypi   { height: 48px; width: 48px; background: url(//pypi.org/static/images/logo-small.6eef541e.svg) no-repeat 0 0; }
     .badge-messenger   { height: 48px; width: 48px; background: url(/icons/messenger-logo.svg)  no-repeat 0 0; background-size: 48px;}
     .badge-facebook   { height: 48px; width: 48px; background: url(/icons/f_logo_RGB-Blue_1024.png)  no-repeat 0 0; background-size: 48px;}
+    .badge-google   { height: 48px; width: 48px; background: url(/icons/btn_google_light_focus_ios.svg)  no-repeat 0 0; background-size: 48px;}
 
     /* .badge-github { height: 48px; width: 48px; background: url(octicon) no-repeat 0 0; } */
 
