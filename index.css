@@ -153,9 +153,15 @@
     .badge-strava { height: 48px; width: 48px; background: url(/icons/strava-echelon-sprite-48.png) no-repeat 0 0; }
     .badge-pypi   { height: 48px; width: 48px; background: url(//pypi.org/static/images/logo-small.6eef541e.svg) no-repeat 0 0; }
     .badge-messenger   { height: 48px; width: 48px; background: url(/icons/messenger-logo.svg)  no-repeat 0 0; background-size: 48px;}
+    .badge-instagram   { height: 48px; width: 48px; background: url(/icons/instagram.png)  no-repeat 0 0; background-size: 48px;}
     .badge-facebook   { height: 48px; width: 48px; background: url(/icons/f_logo_RGB-Blue_1024.png)  no-repeat 0 0; background-size: 48px;}
+    .badge-youtube   { height: 48px; width: 48px; background: url(/icons/youtube.png)  no-repeat 0 0; background-size: 48px;}
     .badge-google   { height: 48px; width: 48px; background: url(/icons/google.png)  no-repeat 0 0; background-size: 48px;}
+    .badge-gmail   { height: 48px; width: 48px; background: url(/icons/gmail.svg)  no-repeat 0 0; background-size: 48px;}
     .badge-google-drive   { height: 48px; width: 48px; background: url(/icons/google-drive-512.png)  no-repeat 0 0; background-size: 48px;}
+    .badge-google-maps   { height: 48px; width: 48px; background: url(/icons/google-maps.png)  no-repeat 0 0; background-size: 48px;}
+    .badge-google-photos   { height: 48px; width: 48px; background: url(/icons/google-photos.png)  no-repeat 0 0; background-size: 48px;}
+    .badge-home   { height: 48px; width: 48px; background: url(/icons/home.svg)  no-repeat 0 0; background-size: 48px;}
 
     /* .badge-github { height: 48px; width: 48px; background: url(octicon) no-repeat 0 0; } */
 
