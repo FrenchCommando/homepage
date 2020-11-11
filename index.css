@@ -150,23 +150,31 @@
 
     .badge { display: inline-block; height: 48px; }
     .badge:hover { opacity: 0.7; }
-    .badge-strava { height: 48px; width: 48px; background: url(/icons/strava-echelon-sprite-48.png) no-repeat 0 0; }
-    .badge-pypi   { height: 48px; width: 48px; background: url(//pypi.org/static/images/logo-small.6eef541e.svg) no-repeat 0 0; }
-    .badge-messenger   { height: 48px; width: 48px; background: url(/icons/messenger-logo.svg)  no-repeat 0 0; background-size: 48px;}
-    .badge-instagram   { height: 48px; width: 48px; background: url(/icons/instagram-2-1.svg)  no-repeat 0 0; background-size: 48px;}
-    .badge-facebook   { height: 48px; width: 48px; background: url(/icons/f_logo_RGB-Blue_1024.png)  no-repeat 0 0; background-size: 48px;}
-    .badge-youtube   { height: 48px; width: 48px; background: url(/icons/youtube.png)  no-repeat 0 0; background-size: 48px;}
-    .badge-google   { height: 48px; width: 48px; background: url(/icons/google.png)  no-repeat 0 0; background-size: 48px;}
-    .badge-gmail   { height: 48px; width: 48px; background: url(/icons/official-gmail-icon-2020-.svg)  no-repeat 0 0; background-size: 48px;}
-    .badge-google-drive   { height: 48px; width: 48px; background: url(/icons/google-drive-512.png)  no-repeat 0 0; background-size: 48px;}
-    .badge-google-maps   { height: 48px; width: 48px; background: url(/icons/google-maps-2020-icon.svg)  no-repeat 0 0; background-size: 48px;}
-    .badge-google-photos   { height: 48px; width: 48px; background: url(/icons/google-photos.png)  no-repeat 0 0; background-size: 48px;}
-    .badge-github   { height: 48px; width: 48px; background: url(/icons/github-1.svg)  no-repeat 0 0; background-size: 48px;}
-    .badge-linkedin   { height: 48px; width: 48px; background: url(/icons/linkedin-icon.svg)  no-repeat 0 0; background-size: 48px;}
-    .badge-amazon   { height: 48px; width: 48px; background: url(/icons/amazon-icon-1.svg)  no-repeat 0 0; background-size: 48px;}
+    .badge-strava { height: 48px; width: 48px; background: url(/icons/strava-echelon-sprite-48.png) no-repeat 0 0; background-size: 48px; background-position: center center;}
+    .badge-pypi   { height: 48px; width: 48px; background: url(//pypi.org/static/images/logo-small.6eef541e.svg) no-repeat 0 0; background-size: 48px; background-position: center center;}
+    .badge-messenger   { height: 48px; width: 48px; background: url(/icons/messenger-logo.svg)  no-repeat 0 0; background-size: 48px; background-position: center center;}
+    .badge-instagram   { height: 48px; width: 48px; background: url(/icons/instagram-2-1.svg)  no-repeat 0 0; background-size: 48px; background-position: center center;}
+    .badge-facebook   { height: 48px; width: 48px; background: url(/icons/f_logo_RGB-Blue_1024.png)  no-repeat 0 0; background-size: 48px; background-position: center center;}
+    .badge-youtube   { height: 48px; width: 48px; background: url(/icons/youtube.png)  no-repeat 0 0; background-size: 48px; background-position: center center;}
+    .badge-google   { height: 48px; width: 48px; background: url(/icons/google.png)  no-repeat 0 0; background-size: 48px; background-position: center center;}
+    .badge-gmail   { height: 48px; width: 48px; background: url(/icons/official-gmail-icon-2020-.svg)  no-repeat 0 0; background-size: 48px; background-position: center center;}
+    .badge-google-drive   { height: 48px; width: 48px; background: url(/icons/google-drive-512.png)  no-repeat 0 0; background-size: 48px; background-position: center center;}
+    .badge-google-maps   { height: 48px; width: 48px; background: url(/icons/google-maps-2020-icon.svg)  no-repeat 0 0; background-size: 48px; background-position: center center;}
+    .badge-google-photos   { height: 48px; width: 48px; background: url(/icons/google-photos.png)  no-repeat 0 0; background-size: 48px; background-position: center center;}
+    .badge-github   { height: 48px; width: 48px; background: url(/icons/github-1.svg)  no-repeat 0 0; background-size: 48px; background-position: center center;}
+    .badge-linkedin   { height: 48px; width: 48px; background: url(/icons/linkedin-icon.svg)  no-repeat 0 0; background-size: 48px; background-position: center center;}
+    .badge-amazon   { height: 48px; width: 48px; background: url(/icons/amazon-icon-1.svg)  no-repeat 0 0; background-size: 48px; background-position: center center;}
+    .badge-twitter   { height: 48px; width: 48px; background: url(/icons/twitter.svg)  no-repeat 0 0; background-size: 48px; background-position: center center;}
 
-    .badge-home   { height: 48px; width: 48px; background: url(/icons/home.svg)  no-repeat 0 0; background-size: 48px;}
-    .badge-arrow   { height: 48px; width: 48px; background: url(/icons/arrow.svg)  no-repeat 0 0; background-size: 48px;}
+    .badge-netflix   { height: 48px; width: 48px; background: url(/icons/netflix.png)  no-repeat 0 0; background-size: 48px; background-position: center center;}
+    .badge-hbomax   { height: 48px; width: 48px; background: url(/icons/hbomax.svg)  no-repeat 0 0; background-size: 48px; background-position: center center;}
+    .badge-disneyplus   { height: 48px; width: 48px; background: url(/icons/disneyplus.svg)  no-repeat 0 0; background-size: 48px; background-position: center center;}
+    .badge-primevideo   { height: 48px; width: 48px; background: url(/icons/primevideo.svg)  no-repeat 0 0; background-size: 48px; background-position: center center;}
+    .badge-hulu   { height: 48px; width: 48px; background: url(/icons/hulu.svg)  no-repeat 0 0; background-size: 48px; background-position: center center;}
+
+
+    .badge-home   { height: 48px; width: 48px; background: url(/icons/home.svg)  no-repeat 0 0; background-size: 48px; background-position: center center;}
+    .badge-arrow   { height: 48px; width: 48px; background: url(/icons/arrow.svg)  no-repeat 0 0; background-size: 48px; background-position: center center;}
 
 
   </style>
