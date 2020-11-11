@@ -152,6 +152,8 @@
     .badge:hover { opacity: 0.7; }
     .badge-strava { height: 48px; width: 48px; background: url(/icons/strava-echelon-sprite-48.png) no-repeat 0 0; }
     .badge-pypi   { height: 48px; width: 48px; background: url(//pypi.org/static/images/logo-small.6eef541e.svg) no-repeat 0 0; }
+    .badge-messenger   { height: 48px; width: 48px; background: url(/icons/messenger-logo.svg)  no-repeat 0 0; background-size: 48px;}
+
     /* .badge-github { height: 48px; width: 48px; background: url(octicon) no-repeat 0 0; } */
 
   </style>
