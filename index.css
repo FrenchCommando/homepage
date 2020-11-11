@@ -162,6 +162,7 @@
     .badge-google-maps   { height: 48px; width: 48px; background: url(/icons/google-maps.png)  no-repeat 0 0; background-size: 48px;}
     .badge-google-photos   { height: 48px; width: 48px; background: url(/icons/google-photos.png)  no-repeat 0 0; background-size: 48px;}
     .badge-home   { height: 48px; width: 48px; background: url(/icons/home.svg)  no-repeat 0 0; background-size: 48px;}
+    .badge-arrow   { height: 48px; width: 48px; background: url(/icons/arrow.svg)  no-repeat 0 0; background-size: 48px;}
 
     /* .badge-github { height: 48px; width: 48px; background: url(octicon) no-repeat 0 0; } */
 
