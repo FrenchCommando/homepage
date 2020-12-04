@@ -28,19 +28,19 @@
     }
 
     div.page_header {
-      height: 99px;
+      height: 40px;
       width: 100%;
       background-color: #F5F6F7;
     }
 
     div.page_header span {
-      margin: 15px 0px 0px 50px;
+      margin: 3px 0px 0px 3px;
       font-size: 180%;
       font-weight: bold;
     }
 
     div.page_header img {
-      margin: 3px 0px 0px 40px;
+      margin: 3px 0px 0px 3px;
       border: 0px 0px 0px;
     }
 
