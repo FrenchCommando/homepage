@@ -45,7 +45,8 @@ var myStuff = {
 }; addDict(myStuff);
 addLink("that's where this is -> go pull-request", "https://github.com/FrenchCommando/homepage")
 addBlank();
+addBlank();
+addBlank();
+
 loadfileandshowcontent("web_hosting");
 loadfileandshowcontent("social_media");
-addBlank();
-addBlank();
