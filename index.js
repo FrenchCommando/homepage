@@ -37,6 +37,7 @@ var myStuff = {
 }; addDict(myStuff);
 var myArrBlank = [""]; addArray(myArrBlank);
 loadfileandshowcontent("web_hosting");
+loadfileandshowcontent("social_media");
 var myArrBlank = [""]; addArray(myArrBlank);
 var myArr = ["Audi", "BMW", "Ford", "Honda", "Jaguar", "Nissan", "Tesla"]; addArray(myArr);
 var myArrBlank = [""]; addArray(myArrBlank);
