@@ -5,8 +5,19 @@ function addContent(content){
   a.innerText = content;
   document.body.appendChild(a);
 }
+function addBlank(){addContent("")}
 function addArray(array){for (const [index, value] of Object.entries(array)) {addContent(value)}}
 function addDict(dict){for (const [key, value] of Object.entries(dict)) {addContent(`${key} :\t${value}`)}}
+function addLink(name, link){
+  a = document.importNode(template0, true);
+  aa = document.createElement('a');
+  link_object = document.createTextNode(link);
+  aa.appendChild(link_object);
+  aa.innerText = name;
+  aa.href = link;
+  a.appendChild(aa);
+  document.body.appendChild(a);
+}
 function addTitleContent(title, content){
     a = document.importNode(template1, true);
     a.querySelector("span[class*=template_title]").innerText = title;
@@ -20,24 +31,21 @@ async function loadfileandshowcontent(filename){
         const response = await fetch(full_path);
         const data = await response.text();
         addTitleContent(filename.replace("_", " "), data);
-//        fetch(full_path)
-//            .then(response => response.text())
-//            .then(data => addTitleContent(filename.replace("_", " "), data));
+        addBlank();
     } catch(err){
         console.error(err);
     }
 }
 
-var myArrBlank = ["", "", ""]; addArray(myArrBlank);
+addBlank(); addBlank(); addBlank();
 var myArrTitle = ["These are just notes - Things that happen in my head"]; addArray(myArrTitle);
-var myArrBlank = [""]; addArray(myArrBlank);
+addBlank();
 var myStuff = {
     "web hosting": "simple local server - javascript - nginx",
-    "that's where this is -> go pull-request": "https://github.com/FrenchCommando/homepage",
 }; addDict(myStuff);
-var myArrBlank = [""]; addArray(myArrBlank);
+addLink("that's where this is -> go pull-request", "https://github.com/FrenchCommando/homepage")
+addBlank();
 loadfileandshowcontent("web_hosting");
 loadfileandshowcontent("social_media");
-var myArrBlank = [""]; addArray(myArrBlank);
-var myArr = ["Audi", "BMW", "Ford", "Honda", "Jaguar", "Nissan", "Tesla"]; addArray(myArr);
-var myArrBlank = [""]; addArray(myArrBlank);
+addBlank();
+addBlank();
