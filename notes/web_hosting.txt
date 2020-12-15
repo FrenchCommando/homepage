@@ -1,0 +1,12 @@
+use nginx and html
+this page is using the css of the apache index
+(apache works too, but I feel that there is more support for nginx now)
+
+html should be fine - some js to get a little bit fancy
+maybe some php - I'll stay away from python frameworks for simple websites
+
+home server using raspberrypi and router - it is simple and makes you feel like a million bucks
+
+domain ? - Google Domains, because they already have my credit card
+good google interface but shows some available domains when they are not
+-> you'll get too excited when you see that you can buy gmail.us
