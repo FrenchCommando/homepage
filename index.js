@@ -18,10 +18,24 @@ function addLink(name, link){
   a.appendChild(aa);
   document.body.appendChild(a);
 }
+function showHide(row){
+  var x = document.getElementById(row);
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
 function addTitleContent(title, content){
     a = document.importNode(template1, true);
-    a.querySelector("span[class*=template_title]").innerText = title;
-    a.querySelector("div[class*=template_content]").innerText = content;
+    content_object = a.querySelector("div[class*=template_content]");
+    content_object.innerText = content;
+    content_id = `content_object_${title}`;
+    content_object.id = content_id;
+    content_object.style.display = "none";
+    title_object = a.querySelector("span[class*=template_title]");
+    title_object.innerText = title.replace("_", " ");
+    title_object.setAttribute("onClick", `showHide("${content_id}");`);
     document.body.appendChild(a);
 }
 async function loadfileandshowcontent(filename){
@@ -30,7 +44,7 @@ async function loadfileandshowcontent(filename){
         var full_path = `${foldername}/${filename}.txt`;
         const response = await fetch(full_path);
         const data = await response.text();
-        addTitleContent(filename.replace("_", " "), data);
+        addTitleContent(filename, data);
         addBlank();
     } catch(err){
         console.error(err);
