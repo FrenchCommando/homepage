@@ -64,3 +64,7 @@ addBlank();
 
 loadfileandshowcontent("web_hosting");
 loadfileandshowcontent("social_media");
+loadfileandshowcontent("cognitive_dissonance");
+loadfileandshowcontent("retirement");
+loadfileandshowcontent("garbage");
+loadfileandshowcontent("chores");
