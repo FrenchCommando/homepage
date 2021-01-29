@@ -52,19 +52,17 @@ async function loadfileandshowcontent(filename){
 }
 
 addBlank(); addBlank(); addBlank();
-var myArrTitle = ["These are just notes - Things that happen in my head"]; addArray(myArrTitle);
+// var myArrTitle = ["These are just notes - Things that happen in my head"]; addArray(myArrTitle);
 addBlank();
-var myStuff = {
-    "web hosting": "simple local server - javascript - nginx",
-}; addDict(myStuff);
+// var myStuff = {"web hosting": "simple local server - javascript - nginx",}; addDict(myStuff);
 addLink("that's where this is -> go pull-request", "https://github.com/FrenchCommando/homepage")
 addBlank();
 addBlank();
 addBlank();
 
-loadfileandshowcontent("web_hosting");
-loadfileandshowcontent("social_media");
-loadfileandshowcontent("cognitive_dissonance");
-loadfileandshowcontent("retirement");
-loadfileandshowcontent("garbage");
-loadfileandshowcontent("chores");
+// loadfileandshowcontent("web_hosting");
+// loadfileandshowcontent("social_media");
+// loadfileandshowcontent("cognitive_dissonance");
+// loadfileandshowcontent("retirement");
+// loadfileandshowcontent("garbage");
+// loadfileandshowcontent("chores");
