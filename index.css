@@ -166,6 +166,7 @@
     .badge-amazon   { height: 48px; width: 48px; background: url(/icons/amazon-icon-1.svg)  no-repeat 0 0; background-size: 48px; background-position: center center;}
     .badge-twitter   { height: 48px; width: 48px; background: url(/icons/twitter.svg)  no-repeat 0 0; background-size: 48px; background-position: center center;}
 
+    .badge-peacock   { height: 48px; width: 48px; background: url(/icons/peacock.png)  no-repeat 0 0; background-size: 48px; background-position: center center;}
     .badge-netflix   { height: 48px; width: 48px; background: url(/icons/netflix.png)  no-repeat 0 0; background-size: 48px; background-position: center center;}
     .badge-hbomax   { height: 48px; width: 48px; background: url(/icons/hbomax.svg)  no-repeat 0 0; background-size: 48px; background-position: center center;}
     .badge-disneyplus   { height: 48px; width: 48px; background: url(/icons/disneyplus.svg)  no-repeat 0 0; background-size: 48px; background-position: center center;}
