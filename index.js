@@ -62,7 +62,7 @@ async function loadfileandshowcontent(filename){
     }
 }
 
-addBlank(); addBlank(); addBlank();
+addBlank();
 // var myArrTitle = ["These are just notes - Things that happen in my head"]; addArray(myArrTitle);
 addBlank();
 // var myStuff = {"web hosting": "simple local server - javascript - nginx",}; addDict(myStuff);
