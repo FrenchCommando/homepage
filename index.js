@@ -86,10 +86,10 @@ addIconLink("watch-me-buzz", "https://github.com/FrenchCommando/watch-me-buzz", 
 addBlank();
 
 addTitle("Quant projects")
+addLink("volatility.fit", "https://volatility.fit/")
 addIconLink("2piece - Dupire PDE knot", "https://frenchcommando.github.io/2piece/", "badge-github")
 addIconLink("variance_factors", "https://github.com/FrenchCommando/variance_factors", "badge-github")
 addIconLink("malliavin-ssr", "https://github.com/FrenchCommando/malliavin-ssr", "badge-github")
-addIconLink("volatility.fit", "https://volatility.fit/", "badge-arrow")
 addBlank();
 addBlank();
 
