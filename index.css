@@ -151,7 +151,7 @@
     .badge { display: inline-block; height: 48px; }
     .badge:hover { opacity: 0.7; }
     .badge-strava { height: 48px; width: 48px; background: url(/icons/strava-echelon-sprite-48.png) no-repeat 0 0; background-size: 48px; background-position: center center;}
-    .badge-pypi   { height: 48px; width: 48px; background: url(//pypi.org/static/images/logo-small.6eef541e.svg) no-repeat 0 0; background-size: 48px; background-position: center center;}
+    .badge-pypi   { height: 48px; width: 48px; background: url(//pypi.org/static/images/logo-small.8998e9d1.svg) no-repeat 0 0; background-size: 48px; background-position: center center;}
     .badge-messenger   { height: 48px; width: 48px; background: url(/icons/messenger-logo.svg)  no-repeat 0 0; background-size: 48px; background-position: center center;}
     .badge-instagram   { height: 48px; width: 48px; background: url(/icons/instagram-2-1.svg)  no-repeat 0 0; background-size: 48px; background-position: center center;}
     .badge-facebook   { height: 48px; width: 48px; background: url(/icons/f_logo_RGB-Blue_1024.png)  no-repeat 0 0; background-size: 48px; background-position: center center;}
