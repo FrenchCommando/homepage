@@ -98,7 +98,7 @@
 
     div.section_header {
       padding: 2px 2px 2px 2px;
-      background-color: #8E9CB2;
+      background-color: #212738;
       color: #FFFFFF;
       font-weight: bold;
       font-size: 112%;
@@ -176,6 +176,9 @@
 
     .badge-home   { height: 48px; width: 48px; background: url(/icons/home.svg)  no-repeat 0 0; background-size: 48px; background-position: center center;}
     .badge-arrow   { height: 48px; width: 48px; background: url(/icons/arrow.svg)  no-repeat 0 0; background-size: 48px; background-position: center center;}
+    .badge-pensine   { height: 48px; width: 48px; background: url(/icons/pensine.png)  no-repeat 0 0; background-size: 48px; background-position: center center;}
+    .badge-do-my-taxes   { height: 48px; width: 48px; background: url(/icons/do-my-taxes.svg)  no-repeat 0 0; background-size: 48px; background-position: center center;}
+    .badge-watch-me-buzz   { height: 48px; width: 48px; background: url(/icons/watch-me-buzz.png)  no-repeat 0 0; background-size: 48px; background-position: center center;}
 
 
   </style>

@@ -18,6 +18,14 @@ function addLink(name, link){
   a.appendChild(aa);
   document.body.appendChild(a);
 }
+function addTitle(text){
+  a = document.importNode(template0, true);
+  h = document.createElement('div');
+  h.className = 'section_header';
+  h.innerText = text;
+  a.appendChild(h);
+  document.body.appendChild(a);
+}
 function addIconLink(name, link, iconClass){
   a = document.importNode(template0, true);
   icon = document.createElement('span');
@@ -64,13 +72,24 @@ async function loadfileandshowcontent(filename){
 
 addBlank();
 // var myArrTitle = ["These are just notes - Things that happen in my head"]; addArray(myArrTitle);
-addBlank();
 // var myStuff = {"web hosting": "simple local server - javascript - nginx",}; addDict(myStuff);
+
+addTitle("Source Code")
 addIconLink("this is the github repo for this page", "https://github.com/FrenchCommando/homepage", "badge-github")
+addBlank();addBlank();
+
+addTitle("Productivity Apps")
 addIconLink("chrome extension allowing to open custom tab", "https://github.com/FrenchCommando/startup-extension", "badge-github")
-addIconLink("2piece - Dupire PDE knot", "https://frenchcommando.github.io/2piece/", "badge-github")
-addIconLink("volatility.fit", "https://volatility.fit/", "badge-arrow")
+addIconLink("pensine - a place for your thoughts", "https://frenchcommando.github.io/pensine/site/", "badge-pensine")
+addIconLink("do-my-taxes", "https://frenchcommando.github.io/do-my-taxes/", "badge-do-my-taxes")
+addIconLink("watch-me-buzz", "https://github.com/FrenchCommando/watch-me-buzz", "badge-watch-me-buzz")
 addBlank();
+
+addTitle("Quant projects")
+addIconLink("2piece - Dupire PDE knot", "https://frenchcommando.github.io/2piece/", "badge-github")
+addIconLink("variance_factors", "https://github.com/FrenchCommando/variance_factors", "badge-github")
+addIconLink("malliavin-ssr", "https://github.com/FrenchCommando/malliavin-ssr", "badge-github")
+addIconLink("volatility.fit", "https://volatility.fit/", "badge-arrow")
 addBlank();
 addBlank();
 
