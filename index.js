@@ -55,7 +55,7 @@ addBlank(); addBlank(); addBlank();
 // var myArrTitle = ["These are just notes - Things that happen in my head"]; addArray(myArrTitle);
 addBlank();
 // var myStuff = {"web hosting": "simple local server - javascript - nginx",}; addDict(myStuff);
-addLink("that's where this is -> go pull-request", "https://github.com/FrenchCommando/homepage")
+addLink("this is the github repo, feel free to report issues", "https://github.com/FrenchCommando/homepage")
 addBlank();
 addBlank();
 addBlank();
