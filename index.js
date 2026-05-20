@@ -18,6 +18,17 @@ function addLink(name, link){
   a.appendChild(aa);
   document.body.appendChild(a);
 }
+function addIconLink(name, link, iconClass){
+  a = document.importNode(template0, true);
+  icon = document.createElement('span');
+  icon.className = `badge ${iconClass}`;
+  a.appendChild(icon);
+  aa = document.createElement('a');
+  aa.innerText = name;
+  aa.href = link;
+  a.appendChild(aa);
+  document.body.appendChild(a);
+}
 function showHide(row){
   var x = document.getElementById(row);
   if (x.style.display === "none") {
@@ -55,7 +66,10 @@ addBlank(); addBlank(); addBlank();
 // var myArrTitle = ["These are just notes - Things that happen in my head"]; addArray(myArrTitle);
 addBlank();
 // var myStuff = {"web hosting": "simple local server - javascript - nginx",}; addDict(myStuff);
-addLink("this is the github repo, feel free to report issues", "https://github.com/FrenchCommando/homepage")
+addIconLink("this is the github repo for this page", "https://github.com/FrenchCommando/homepage", "badge-github")
+addIconLink("chrome extension allowing to open custom tab", "https://github.com/FrenchCommando/startup-extension", "badge-github")
+addIconLink("2piece - Dupire PDE knot", "https://frenchcommando.github.io/2piece/", "badge-github")
+addIconLink("volatility.fit", "https://volatility.fit/", "badge-arrow")
 addBlank();
 addBlank();
 addBlank();
