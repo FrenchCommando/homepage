@@ -173,6 +173,18 @@
     .badge-primevideo   { height: 48px; width: 48px; background: url(/icons/primevideo.svg)  no-repeat 0 0; background-size: 48px; background-position: center center;}
     .badge-hulu   { height: 48px; width: 48px; background: url(/icons/hulu.svg)  no-repeat 0 0; background-size: 48px; background-position: center center;}
 
+    .badge-yahoo-finance { height: 48px; width: 48px; background: url(https://s.yimg.com/cv/apiv2/myc/finance/Finance_icon_0919_250x252.png) no-repeat 0 0; background-size: 48px; background-position: center center;}
+    .badge-fred          { height: 48px; width: 48px; background: url(https://fred.stlouisfed.org/images/FRED_Logo_for_Waffle.svg) no-repeat 0 0; background-size: 48px; background-position: center center;}
+    .badge-bls           { height: 48px; width: 48px; background: url(https://data.bls.gov/images/bls_emblem_trans.png) no-repeat 0 0; background-size: 48px; background-position: center center;}
+    .badge-sec           { height: 48px; width: 48px; background: #003968 url(https://www.sec.gov/edgar/search/images/edgar-logo-2x.png) no-repeat 0 0; background-size: 48px; background-position: center center;}
+    .badge-cboe          { height: 48px; width: 48px; background: url(https://www.cboe.com/apple-touch-icon.png) no-repeat 0 0; background-size: 48px; background-position: center center;}
+    .badge-federalreserve  { height: 48px; width: 48px; background: url(https://www.federalreserve.gov/images/seal.png) no-repeat 0 0; background-size: 48px; background-position: center center;}
+    .badge-treasurydirect  { height: 48px; width: 48px; background: url(https://www.treasurydirect.gov/favicon.ico) no-repeat 0 0; background-size: 48px; background-position: center center;}
+    .badge-fiscaldata      { height: 48px; width: 48px; background: url(https://fiscaldata.treasury.gov/icons/icon-96x96.png) no-repeat 0 0; background-size: 48px; background-position: center center;}
+    .badge-cmegroup        { height: 48px; width: 48px; background: url(https://www.cmegroup.com/favicon.ico) no-repeat 0 0; background-size: 48px; background-position: center center;}
+    .badge-archive-ph    { height: 48px; width: 48px; background: url(https://archive.ph/apple-touch-icon.png) no-repeat 0 0; background-size: 48px; background-position: center center;}
+    .badge-wayback       { height: 48px; width: 48px; background: url(https://archive.org/apple-touch-icon.png) no-repeat 0 0; background-size: 48px; background-position: center center;}
+
 
     .badge-home   { height: 48px; width: 48px; background: url(/icons/home.svg)  no-repeat 0 0; background-size: 48px; background-position: center center;}
     .badge-arrow   { height: 48px; width: 48px; background: url(/icons/arrow.svg)  no-repeat 0 0; background-size: 48px; background-position: center center;}
