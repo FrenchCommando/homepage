@@ -184,6 +184,7 @@
     .badge-cmegroup        { height: 48px; width: 48px; background: url(https://www.cmegroup.com/favicon.ico) no-repeat 0 0; background-size: 48px; background-position: center center;}
     .badge-archive-ph    { height: 48px; width: 48px; background: url(https://archive.ph/apple-touch-icon.png) no-repeat 0 0; background-size: 48px; background-position: center center;}
     .badge-wayback       { height: 48px; width: 48px; background: url(https://archive.org/apple-touch-icon.png) no-repeat 0 0; background-size: 48px; background-position: center center;}
+    .badge-foodcoop      { height: 48px; width: 48px; background: url(https://members.foodcoop.com/apple-touch-icon.png) no-repeat 0 0; background-size: 48px; background-position: center center;}
 
 
     .badge-home   { height: 48px; width: 48px; background: url(/icons/home.svg)  no-repeat 0 0; background-size: 48px; background-position: center center;}
