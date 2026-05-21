@@ -191,6 +191,11 @@
     .badge-cloudflare    { height: 48px; width: 48px; background: url(https://www.cloudflare.com/favicon.ico) no-repeat 0 0; background-size: 48px; background-position: center center;}
     .badge-porkbun       { height: 48px; width: 48px; background: url(https://porkbun.com/partners/logos/porkbun.comphpPkl2eU.svg) no-repeat 0 0; background-size: 48px; background-position: center center;}
 
+    .badge-weather-gov   { height: 48px; width: 48px; background: url(/icons/weather-gov.ico) no-repeat 0 0; background-size: 48px; background-position: center center;}
+    .badge-weather-com   { height: 48px; width: 48px; background: url(/icons/weather-com.png) no-repeat 0 0; background-size: 48px; background-position: center center;}
+    .badge-windy         { height: 48px; width: 48px; background: url(/icons/windy.png) no-repeat 0 0; background-size: 48px; background-position: center center;}
+    .badge-accuweather   { height: 48px; width: 48px; background: url(/icons/accuweather.png) no-repeat 0 0; background-size: 48px; background-position: center center;}
+
 
     .badge-home   { height: 48px; width: 48px; background: url(/icons/home.svg)  no-repeat 0 0; background-size: 48px; background-position: center center;}
     .badge-arrow   { height: 48px; width: 48px; background: url(/icons/arrow.svg)  no-repeat 0 0; background-size: 48px; background-position: center center;}
