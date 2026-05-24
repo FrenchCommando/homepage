@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" shape-rendering="crispEdges">
+  <!-- Win95-style bevel: light top/left, dark bottom/right on classic grey -->
+  <rect x="0" y="0" width="64" height="64" fill="#C0C0C0"/>
+  <path d="M0 0 H64 V2 H2 V64 H0 Z" fill="#FFFFFF"/>
+  <path d="M64 64 H0 V62 H62 V0 H64 Z" fill="#404040"/>
+  <path d="M2 2 H62 V4 H4 V62 H2 Z" fill="#DFDFDF"/>
+  <path d="M62 62 H2 V60 H60 V2 H62 Z" fill="#808080"/>
+
+  <!-- Win95 4-pane flag, slightly sheared, camo palette -->
+  <g transform="translate(8 12)">
+    <!-- subtle drop shadow -->
+    <g transform="translate(2 2)" opacity="0.35">
+      <polygon points="0,6 18,0 18,18 0,22" fill="#000"/>
+      <polygon points="20,0 44,0 44,18 20,18" fill="#000"/>
+      <polygon points="0,24 18,20 18,40 0,40" fill="#000"/>
+      <polygon points="20,20 44,20 44,40 20,40" fill="#000"/>
+    </g>
+    <!-- panes: olive drab, dark forest, khaki/tan, brown -->
+    <polygon points="0,6 18,0 18,18 0,22" fill="#556B2F"/>
+    <polygon points="20,0 44,0 44,18 20,18" fill="#3A4B22"/>
+    <polygon points="0,24 18,20 18,40 0,40" fill="#8B7E55"/>
+    <polygon points="20,20 44,20 44,40 20,40" fill="#5C4A2A"/>
+
+    <!-- camo blotches over each pane for texture -->
+    <g opacity="0.55">
+      <ellipse cx="6" cy="10" rx="3" ry="2" fill="#3A4B22"/>
+      <ellipse cx="13" cy="15" rx="2" ry="1.5" fill="#8B7E55"/>
+      <ellipse cx="28" cy="5" rx="3" ry="2" fill="#5C4A2A"/>
+      <ellipse cx="38" cy="12" rx="2.5" ry="1.8" fill="#556B2F"/>
+      <ellipse cx="6" cy="30" rx="2.5" ry="2" fill="#5C4A2A"/>
+      <ellipse cx="14" cy="36" rx="2" ry="1.5" fill="#3A4B22"/>
+      <ellipse cx="27" cy="26" rx="3" ry="2" fill="#8B7E55"/>
+      <ellipse cx="38" cy="34" rx="2.5" ry="1.8" fill="#556B2F"/>
+    </g>
+  </g>
+</svg>
