@@ -79,7 +79,7 @@ addIconLink("this is the github repo for this page", "https://github.com/FrenchC
 addBlank();addBlank();
 
 addTitle("Productivity Apps")
-addIconLink("chrome extension allowing to open custom tab", "https://github.com/FrenchCommando/startup-extension", "badge-github")
+addIconLink("chrome extension allowing to open custom tab", "https://github.com/FrenchCommando/startup-extension", "badge-startup-extension")
 addIconLink("pensine - a place for your thoughts", "https://frenchcommando.github.io/pensine/site/", "badge-pensine")
 addIconLink("do-my-taxes", "https://frenchcommando.github.io/do-my-taxes/", "badge-do-my-taxes")
 addIconLink("watch-me-buzz", "https://github.com/FrenchCommando/watch-me-buzz", "badge-watch-me-buzz")
