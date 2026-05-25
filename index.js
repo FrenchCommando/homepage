@@ -83,6 +83,7 @@ addIconLink("chrome extension allowing to open custom tab", "https://github.com/
 addIconLink("pensine - a place for your thoughts", "https://frenchcommando.github.io/pensine/site/", "badge-pensine")
 addIconLink("do-my-taxes", "https://frenchcommando.github.io/do-my-taxes/", "badge-do-my-taxes")
 addIconLink("watch-me-buzz", "https://github.com/FrenchCommando/watch-me-buzz", "badge-watch-me-buzz")
+addIconLink("latex-preview", "https://github.com/FrenchCommando/latex-preview", "badge-latex-preview")
 addBlank();
 
 addTitle("Quant projects")
