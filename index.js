@@ -70,6 +70,37 @@ async function loadfileandshowcontent(filename){
     }
 }
 
+// search bar prefixes - "gh nginx" searches github, bare text falls through to google
+const searchPrefixes = {
+  gh:    q => `https://github.com/search?q=${q}`,
+  py:    q => `https://pypi.org/search/?q=${q}`,
+  wiki:  q => `https://en.wikipedia.org/w/index.php?search=${q}`,
+  yt:    q => `https://www.youtube.com/results?search_query=${q}`,
+  so:    q => `https://stackoverflow.com/search?q=${q}`,
+  mdn:   q => `https://developer.mozilla.org/en-US/search?q=${q}`,
+  arxiv: q => `https://arxiv.org/abs/${q}`,
+  map:   q => `https://www.google.com/maps/search/${q}`,
+  amz:   q => `https://www.amazon.com/s?k=${q}`,
+};
+function setupSearchPrefixes(){
+  const form = document.querySelector("form.searchform");
+  if (!form) return;
+  const input = form.querySelector("input[name=q]");
+  input.title = `prefixes: ${Object.keys(searchPrefixes).join(", ")}`;
+  form.addEventListener("submit", function(event){
+    const raw = input.value.trim();
+    const space = raw.indexOf(" ");
+    if (space < 0) return;
+    const builder = searchPrefixes[raw.slice(0, space).toLowerCase()];
+    if (!builder) return;
+    const rest = raw.slice(space + 1).trim();
+    if (!rest) return;
+    event.preventDefault();
+    window.open(builder(encodeURIComponent(rest)), form.target || "_blank");
+  });
+}
+setupSearchPrefixes();
+
 addBlank();
 // var myArrTitle = ["These are just notes - Things that happen in my head"]; addArray(myArrTitle);
 // var myStuff = {"web hosting": "simple local server - javascript - nginx",}; addDict(myStuff);
