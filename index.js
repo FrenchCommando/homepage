@@ -82,11 +82,25 @@ const searchPrefixes = {
   map:   q => `https://www.google.com/maps/search/${q}`,
   amz:   q => `https://www.amazon.com/s?k=${q}`,
 };
+// hostname is the right label for most, but a few need spelling out
+const searchPrefixLabels = { map: "google maps", arxiv: "arxiv.org id" };
+function searchPrefixSite(prefix, builder){
+  return searchPrefixLabels[prefix] || new URL(builder("")).hostname.replace(/^(www|en)\./, "");
+}
+function renderSearchHint(){
+  const hint = document.getElementById("search_hint");
+  if (!hint) return;
+  const pairs = Object.entries(searchPrefixes)
+    .map(([prefix, builder]) => `<code>${prefix}</code> ${searchPrefixSite(prefix, builder)}`)
+    .join(" &middot; ");
+  hint.innerHTML = `type a prefix to search elsewhere &mdash; ${pairs} &mdash; anything else goes to Google`;
+}
 function setupSearchPrefixes(){
   const form = document.querySelector("form.searchform");
   if (!form) return;
   const input = form.querySelector("input[name=q]");
   input.title = `prefixes: ${Object.keys(searchPrefixes).join(", ")}`;
+  renderSearchHint();
   form.addEventListener("submit", function(event){
     const raw = input.value.trim();
     const space = raw.indexOf(" ");

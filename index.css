@@ -148,6 +148,20 @@
     div.validator {
     }
 
+    div.search_hint {
+      padding: 2px 8px 6px 8px;
+      color: #5A6172;
+      font-size: 85%;
+    }
+
+    div.search_hint code {
+      padding: 0px 3px 0px 3px;
+      background-color: #F5F6F7;
+      border: 1px dotted #9F9386;
+      font-family: Consolas, monospace;
+      color: #212738;
+    }
+
     .badge { display: inline-block; height: 48px; }
     .badge:hover { opacity: 0.7; }
     .badge-strava { height: 48px; width: 48px; background: url(/icons/strava-echelon-sprite-48.png) no-repeat 0 0; background-size: 48px; background-position: center center;}
