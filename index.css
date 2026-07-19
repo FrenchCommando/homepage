@@ -173,6 +173,7 @@
     .badge-primevideo   { height: 48px; width: 48px; background: url(/icons/primevideo.svg)  no-repeat 0 0; background-size: 48px; background-position: center center;}
     .badge-hulu   { height: 48px; width: 48px; background: url(/icons/hulu.svg)  no-repeat 0 0; background-size: 48px; background-position: center center;}
     .badge-spotify   { height: 48px; width: 48px; background: url(/icons/spotify.png)  no-repeat 0 0; background-size: 48px; background-position: center center;}
+    .badge-soundcloud   { height: 48px; width: 48px; background: url(/icons/soundcloud.png)  no-repeat 0 0; background-size: 48px; background-position: center center;}
 
     .badge-yahoo-finance { height: 48px; width: 48px; background: url(https://s.yimg.com/cv/apiv2/myc/finance/Finance_icon_0919_250x252.png) no-repeat 0 0; background-size: 48px; background-position: center center;}
     .badge-fred          { height: 48px; width: 48px; background: url(https://fred.stlouisfed.org/images/FRED_Logo_for_Waffle.svg) no-repeat 0 0; background-size: 48px; background-position: center center;}
